@@ -22,6 +22,30 @@
       },
       "revId": "9829274b64debe66a3391553e1c641a97bd71c27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f357d6a_0e5c67f0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-06-19T09:13:34Z",
+      "side": 1,
+      "message": "No, there is no different branch for this repo. Thanks for checking!",
+      "parentUuid": "7f7dab77_cd37e70c",
+      "range": {
+        "startLine": 18,
+        "startChar": 114,
+        "endLine": 18,
+        "endChar": 115
+      },
+      "revId": "9829274b64debe66a3391553e1c641a97bd71c27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
