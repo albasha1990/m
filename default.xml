@@ -15,7 +15,7 @@
   <project path="common" name="kernel/common" revision="android15-6.6-2024-07" upstream="android15-6.6-2024-07" dest-branch="android15-6.6-2024-07" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="70e721637d2555a832a56b6d58a7568182800114" upstream="android15-6.6" dest-branch="android15-6.6" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="94e52d00fd4e9921efbad3c4b5f424f90b57dfce" upstream="android15-6.6" dest-branch="android15-6.6" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
@@ -43,7 +43,6 @@
   <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external" />
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
-  <project path="external/stardoc" name="platform/external/stardoc" />
 
   <!-- dependencies used to build toolchain from sources -->
   <project path="external/lz4" name="platform/external/lz4" groups="ddk" />
