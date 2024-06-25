@@ -32,6 +32,8 @@
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="pdk" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" />
+  <project path="external/musl" name="platform/external/musl" />
+  <project path="external/obstack" name="platform/external/obstack" />
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" />
   <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin,pdk" clone-depth="1" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" />
