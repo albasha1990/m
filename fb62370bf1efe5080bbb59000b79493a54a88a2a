@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86a0327d_5cdaf33b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-06-26T07:51:30Z",
+      "side": 1,
+      "message": "I think this should rather go here (dependencies) or further down (target projects)",
+      "revId": "fb62370bf1efe5080bbb59000b79493a54a88a2a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
