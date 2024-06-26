@@ -16,6 +16,24 @@
       "message": "I think this should rather go here (dependencies) or further down (target projects)",
       "revId": "fb62370bf1efe5080bbb59000b79493a54a88a2a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c07b7f7b_ff5eb6e6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-06-26T18:58:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "86a0327d_5cdaf33b",
+      "revId": "fb62370bf1efe5080bbb59000b79493a54a88a2a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
