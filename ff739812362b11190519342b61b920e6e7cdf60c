@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78318b13_fef81705",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2024-07-09T22:54:36Z",
+      "side": 1,
+      "message": "nit: looks like some alphabetical order is off.",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 68
+      },
+      "revId": "ff739812362b11190519342b61b920e6e7cdf60c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
