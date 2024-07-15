@@ -39,6 +39,30 @@
       },
       "revId": "ff739812362b11190519342b61b920e6e7cdf60c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "640fa59a_0ec5419a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1893074
+      },
+      "writtenOn": "2024-07-15T00:26:00Z",
+      "side": 1,
+      "message": "I tried to do so, but seems like the whole manifest file isn\u0027t ordered, so I will have to touch other lines which may affect the git history. Do you think it\u0027s ok if I do so?",
+      "parentUuid": "78318b13_fef81705",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 68
+      },
+      "revId": "ff739812362b11190519342b61b920e6e7cdf60c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
