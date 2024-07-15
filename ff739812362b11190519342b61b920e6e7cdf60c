@@ -18,6 +18,46 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b244d4f_6a611e91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2024-07-15T15:11:47Z",
+      "side": 1,
+      "message": "I don\u0027t have +2 either sorry, I think Ram might?",
+      "revId": "ff739812362b11190519342b61b920e6e7cdf60c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "839bf531_8a1c18ac",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2024-07-15T15:11:47Z",
+      "side": 1,
+      "message": "nit: I don\u0027t think we need the `pdk` group here, it\u0027s useful for huge repos to be able to optionally checkout a subset of gits for certain tasks, but our repo is already minimized for GBL development so we don\u0027t need any git groups.",
+      "range": {
+        "startLine": 41,
+        "startChar": 66,
+        "endLine": 41,
+        "endChar": 78
+      },
+      "revId": "ff739812362b11190519342b61b920e6e7cdf60c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "78318b13_fef81705",
