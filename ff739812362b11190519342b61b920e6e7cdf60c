@@ -58,6 +58,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d16894c7_be765ffb",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1893074
+      },
+      "writtenOn": "2024-07-15T15:52:46Z",
+      "side": 1,
+      "message": "Missed it during copying, thanks for spotting it",
+      "parentUuid": "839bf531_8a1c18ac",
+      "range": {
+        "startLine": 41,
+        "startChar": 66,
+        "endLine": 41,
+        "endChar": 78
+      },
+      "revId": "ff739812362b11190519342b61b920e6e7cdf60c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "78318b13_fef81705",
