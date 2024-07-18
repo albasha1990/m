@@ -43,6 +43,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/pigz" name="platform/external/pigz" />
   <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/rust/crates/arrayvec" name="platform/external/rust/crates/arrayvec" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" />
   <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" />
