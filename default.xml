@@ -16,6 +16,7 @@
   </project>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline-riscv64" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" groups="ddk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
@@ -34,6 +35,7 @@
   <project path="external/libcap" name="platform/external/libcap"/>
 
   <!-- deps for for bzlmod -->
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
   <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external" />
@@ -45,7 +47,6 @@
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
-  <project path="external/stardoc" name="platform/external/stardoc" />
 
   <!-- dependencies used to build toolchain from sources -->
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
@@ -55,4 +56,5 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
 
   <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
 </manifest>
