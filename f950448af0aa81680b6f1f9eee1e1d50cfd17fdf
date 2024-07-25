@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11313913_7889c848",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-07-25T16:56:32Z",
+      "side": 1,
+      "message": "I forgot to mention that JDK is also still needed for WORKSPACE-style set up. But we don\u0027t use WORKSPACE on this branch any more.",
+      "revId": "f950448af0aa81680b6f1f9eee1e1d50cfd17fdf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
