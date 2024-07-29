@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d377afcd_8823ee80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1886327
+      },
+      "writtenOn": "2024-07-29T19:33:22Z",
+      "side": 1,
+      "message": "Pending branch creation.",
+      "revId": "3e8ebb80396f811633b2854cb991f0e04dad2dff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
