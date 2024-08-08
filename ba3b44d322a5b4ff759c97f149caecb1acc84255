@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fdc6da8_d1636146",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2024-08-08T20:33:18Z",
+      "side": 1,
+      "message": "Sorry I don\u0027t have +2 permission",
+      "revId": "ba3b44d322a5b4ff759c97f149caecb1acc84255",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
