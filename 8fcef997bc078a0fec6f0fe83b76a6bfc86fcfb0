@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "23d85696_b30a7381",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-08-13T00:08:41Z",
+      "side": 1,
+      "message": "We have `common-modules/trusty` in mainline now, and a `main-kernel-build-2024` branch for that repository. Any objection to landing this, so we can make 6.6 prebuilts?",
+      "parentUuid": "fba2391a_c42b9292",
+      "revId": "8fcef997bc078a0fec6f0fe83b76a6bfc86fcfb0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2a078d50_fb62dadf",
         "filename": "default.xml",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2024-06-06T12:39:25Z",
       "side": 1,
       "message": "I think this comment should be removed or updated. Trusty modules can use the default revision.",
+      "revId": "8fcef997bc078a0fec6f0fe83b76a6bfc86fcfb0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d43d1d23_6e28c332",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-08-13T00:08:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a078d50_fb62dadf",
       "revId": "8fcef997bc078a0fec6f0fe83b76a6bfc86fcfb0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
