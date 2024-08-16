@@ -3,7 +3,7 @@
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2024-06" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2024-06-brcm" />
 
   <project path="build/kernel" name="kernel/build">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
@@ -11,7 +11,7 @@
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
-  <project path="common" name="kernel/common" revision="android14-6.1-2024-06" upstream="android14-6.1-2024-06" dest-branch="android14-6.1-2024-06" />
+  <project path="common" name="kernel/common" revision="android14-6.1-2024-06-brcm" upstream="android14-6.1-2024-06-brcm" dest-branch="android14-6.1-2024-06-brcm" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="31d55ad282832dbc009bc3b17deed6537c6ac969" upstream="android14-6.1" dest-branch="android14-6.1" />
