@@ -74,6 +74,7 @@
   <project path="external/rust/crates/uuid" name="platform/external/rust/crates/uuid" />
   <project path="external/rust/crates/zerocopy" name="platform/external/rust/crates/zerocopy" />
   <project path="external/rust/crates/zerocopy-derive" name="platform/external/rust/crates/zerocopy-derive" />
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" />
