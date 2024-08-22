@@ -88,6 +88,24 @@
       "parentUuid": "8041a28f_9daea576",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eede5faf_7e958888",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-08-22T23:04:19Z",
+      "side": 1,
+      "message": "Also re\n\n\u003e If you\u0027re saying that I *can* just drop any compiler that came off the build servers in there, then you\u0027re correct, I don\u0027t need to edit the manifest, but I didn\u0027t think that\u0027d be your stance.\n\nYeah you can pretty much **delete** any versions that are not used in main-kernel. We have this `main-kernel` branch to be just like `main`, but with fewer numbers of versions to reduce disk space. So deletions are perfectly fine as long as it is unused. (This is orthogonal to the discussion though)",
+      "parentUuid": "b859716e_f45fb4d2",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
