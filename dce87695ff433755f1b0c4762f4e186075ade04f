@@ -52,6 +52,24 @@
       "parentUuid": "44b0b560_3f175f00",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8041a28f_9daea576",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416371
+      },
+      "writtenOn": "2024-08-22T22:50:04Z",
+      "side": 1,
+      "message": "I am pretty sure that if I want to put a compiler labeled 1.81.0-pre-plus-patches onto the main-kernel branch, y\u0027all would tell me no. If you\u0027re saying that I *can* just drop any compiler that came off the build servers in there, then you\u0027re correct, I don\u0027t need to edit the manifest, but I didn\u0027t think that\u0027d be your stance.\n\nThe `main-kernel` would be the branch that contains the compiler that actually came from the Android compiler team and which we actually intend to release the kernel with. `main-kernel` would only contain \"real\" compilers rather than preview ones that may be untested or buggy.\n\nThe closest I have to a bug number here is to just link to each of the times kernel/common has not wanted Rust changes backported into it? I can create a bug and paste this info in it if you like.\n\nThe naming is just following the naming of this branch. Perhaps I should have done main-kernel-rust instead, but I\u0027d prefer not to submit another ABSS request to create the branch and wait another week for a new branch.",
+      "parentUuid": "58aed087_4b1e9600",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
