@@ -70,6 +70,24 @@
       "parentUuid": "58aed087_4b1e9600",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b859716e_f45fb4d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-08-22T23:00:56Z",
+      "side": 1,
+      "message": "I see, so if I am understanding correctly, you have this `android-mainline-rust` branch as a \"dev\" / bleeding-edge / super unstable branch, and \"main-kernel\" is your \"a bit stabler\" branch. Is that right?\n\nAlso, since you mentioned\n\n\u003e grab a revision of the compiler the Android team hasn\u0027t actually marked as good for public consumption\n\nIs this `android-mainline-rust` not public accessible?\n\n\u003e The main-kernel would be the branch that contains the compiler that actually came from the Android compiler team and which we actually intend to release the kernel with. main-kernel would only contain \"real\" compilers rather than preview ones that may be untested or buggy.\n\nWould you also be adding another manifest branch / setting up build infra that actually ensures main-kernel continues to work? Otherwise it seems to be that we can\u0027t ensure main-kernel is stabler than your new branch.",
+      "parentUuid": "8041a28f_9daea576",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
