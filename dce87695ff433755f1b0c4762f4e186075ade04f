@@ -124,6 +124,24 @@
       "parentUuid": "b859716e_f45fb4d2",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "511f6e0a_d1784675",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-08-22T23:14:34Z",
+      "side": 1,
+      "message": "Thanks for your explanation! I think this resolves my confusion.\n\ncc @maennich@google.com for final approval",
+      "parentUuid": "feb13790_c40e14a0",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
