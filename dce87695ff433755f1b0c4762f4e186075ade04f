@@ -34,6 +34,24 @@
       "parentUuid": "de1d80c0_06262e77",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58aed087_4b1e9600",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-08-22T22:44:27Z",
+      "side": 1,
+      "message": "Thanks for your information. Sorry, I am still confused. How does this justify another branch? That is, why wouldn\u0027t you just delete/keep the compilers on main-kernel branch directly?\n\nAnd the follow up question: after this change, what would you use the `main-kernel` branch for? \n\nIn addition, perhaps some background information (a doc, a bug number, etc.) would make it more clear to a curious reader.\n\nIn addition, in the manifest, we usually put kernel source code in the branch \"mainline\" and tooling in the branch \"main/main-kernel\" (with the exception of trusty). So using the name \"mainline\" also confuses me. But that\u0027s orthogonal to my question above.",
+      "parentUuid": "44b0b560_3f175f00",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
