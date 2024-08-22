@@ -16,6 +16,24 @@
       "message": "Huh, but I don\u0027t think anyone else is using prebuilts/rust main-kernel. It is also a separate branch from main, where the platform may use. Why do you need yet another branch? Is it because it is receiving automerger updates from main?",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44b0b560_3f175f00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416371
+      },
+      "writtenOn": "2024-08-22T22:35:05Z",
+      "side": 1,
+      "message": "tl;dr: We\u0027re going to drop compilers here that are not release qualified by the Android compiler team to make sure things are working in advance.\n\nWe\u0027re going to drop compilers with features that haven\u0027t made it into any stable rust compiler in there for testing\u0027s sake, so that we know it\u0027s working before we try to start merging things into mainline.\n\nIt basically serves the same purpose as the rest of this manifest - the threshold to land and enable something in mainline is higher, so if we want to, e.g. test that our solution to the `gcov` + `kcfi` + Rust situation is working, or grab a revision of the compiler the Android team hasn\u0027t actually marked as good for public consumption, this will allow our staging-CI to see everything go green, and then we\u0027ll know we have all the features in the pipeline for the Rust compiler, etc.",
+      "parentUuid": "de1d80c0_06262e77",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
