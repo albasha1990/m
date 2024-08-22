@@ -106,6 +106,24 @@
       "parentUuid": "b859716e_f45fb4d2",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "feb13790_c40e14a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416371
+      },
+      "writtenOn": "2024-08-22T23:09:07Z",
+      "side": 1,
+      "message": "\u003eI see, so if I am understanding correctly, you have this android-mainline-rust branch as a \"dev\" / bleeding-edge / super unstable branch, and \"main-kernel\" is your \"a bit stabler\" branch. Is that right?\n\nYes, that\u0027s correct\n\n\u003e Is this `android-mainline-rust` not public accessible?\n\nIt is publicly accessible. By \"not good for public consumption\" I mean that it may have various forms of brokenness that make it unsupported and not in a state we want a random team building something with it and expecting it to work.\n\n\u003e Would you also be adding another manifest branch / setting up build infra that actually ensures main-kernel continues to work? Otherwise it seems to be that we can\u0027t ensure main-kernel is stabler than your new branch.\n\nThis is the separate manifest branch for dev. The intention was to use `common-android-mainline` with `--rust` and eventually with an updated gki_defconfig to ensure that `main-kernel` works. Nothing in this manifest branch will ever ship directly - it\u0027s a staging ground for making sure everything is working so we can make sure that once everything in the various release pipelines finishes going through, all the builds in `common-android-mainline` will work to avoid surprises like last time.\n\nMany of our patches have long time horizons before we can see them integrated in `common-android-mainline`, for example:\n1. A compiler patch that lands upstream may take up to 6 weeks to hit beta, another 6 to hit stable, and then a few weeks for the toolchain team to roll a new release. We can sometimes shortcut this process by cherry picking this back into the compiler early, but even that can be a multi-week delay.\n2. Sending a change to the kernel can take an indefinite amount of time to get reviewed, and even once merged, has a time delay before landing in the mainline kernel.\n3. Getting changes applied to tools requires sending the change upstream, syncing the tool, then picking a new prebuilt.\n\nThe point of this branch is to try to act as an ad-hoc integration branch so that we can verify that once all the changes we have in these multi-month release pipelines finally get blessed enough that they are allowed to go to `common-android-mainline`, they\u0027ll all work together. Without something like this integration branch, we effectively live on a multi-month development cycle, because the next \"Oh, gcov doesn\u0027t work with KCFI and Rust enabled\" type bug is unlikely to be detected on a developer\u0027s machine.",
+      "parentUuid": "b859716e_f45fb4d2",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
