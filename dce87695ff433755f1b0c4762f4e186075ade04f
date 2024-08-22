@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de1d80c0_06262e77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-08-22T22:31:16Z",
+      "side": 1,
+      "message": "Huh, but I don\u0027t think anyone else is using prebuilts/rust main-kernel. It is also a separate branch from main, where the platform may use. Why do you need yet another branch? Is it because it is receiving automerger updates from main?",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
