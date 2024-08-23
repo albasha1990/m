@@ -142,6 +142,24 @@
       "parentUuid": "feb13790_c40e14a0",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05ef6bee_c2819c5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-08-23T05:36:56Z",
+      "side": 1,
+      "message": "I concur the branch name is not ideal (probably would suggest `main-kernel-rust` to express intent and relationship), but that otherwise looks good to me and I will not insist on a branch name change.",
+      "parentUuid": "511f6e0a_d1784675",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
