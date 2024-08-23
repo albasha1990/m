@@ -160,6 +160,24 @@
       "parentUuid": "511f6e0a_d1784675",
       "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "636392b8_d840fbb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416371
+      },
+      "writtenOn": "2024-08-23T18:22:15Z",
+      "side": 1,
+      "message": "Understood. If we need to fork any other repos for this dev manifest I\u0027ll consult you on naming first.",
+      "parentUuid": "05ef6bee_c2819c5b",
+      "revId": "dce87695ff433755f1b0c4762f4e186075ade04f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
