@@ -3,7 +3,7 @@
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2024-06-brcm" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-brcm" />
 
   <project path="build/kernel" name="kernel/build">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
