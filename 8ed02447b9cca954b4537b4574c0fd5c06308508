@@ -16,6 +16,24 @@
       "message": "The commit message doesn\u0027t give me enough context to review this change.\n\n12309072 does not appear in the linked bug, for example.",
       "revId": "8ed02447b9cca954b4537b4574c0fd5c06308508",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36655f57_00f692e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-09-03T15:06:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "153850ec_a013c3e9",
+      "revId": "8ed02447b9cca954b4537b4574c0fd5c06308508",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
