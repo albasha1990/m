@@ -11,6 +11,7 @@
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
+<<<<<<< HEAD   (54fecd Revert "Map in Rust support")
   <project path="common" name="kernel/common" revision="android14-6.1" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
@@ -18,6 +19,23 @@
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+=======
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="common" name="kernel/common" revision="android-mainline" />
+  <project path="kernel/common-patches" name="kernel/common-patches" >
+      <linkfile src="android-mainline" dest="common/patches" />
+  </project>
+  <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+>>>>>>> CHANGE (ed705b ANDROID: Add short link for launch_cvd.sh & run_test_only.sh)
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
