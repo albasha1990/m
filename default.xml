@@ -55,6 +55,7 @@
   <project path="external/rust/crates/hex" name="platform/external/rust/crates/hex" />
   <project path="external/rust/crates/itertools" name="platform/external/rust/crates/itertools" />
   <project path="external/rust/crates/lazy_static" name="platform/external/rust/crates/lazy_static" />
+  <project path="external/rust/crates/lz4_flex" name="platform/external/rust/crates/lz4_flex" />
   <project path="external/rust/crates/managed" name="platform/external/rust/crates/managed" />
   <project path="external/rust/crates/mockall" name="platform/external/rust/crates/mockall" />
   <project path="external/rust/crates/mockall_derive" name="platform/external/rust/crates/mockall_derive" />
