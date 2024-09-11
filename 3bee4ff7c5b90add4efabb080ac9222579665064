@@ -34,6 +34,24 @@
       "parentUuid": "07af8f88_ea3cedc9",
       "revId": "3bee4ff7c5b90add4efabb080ac9222579665064",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "589151e5_e797a4e1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-09-11T15:51:45Z",
+      "side": 1,
+      "message": "I thought there would only be yearly branches outside of `common`, e.g., `main-kernel-build-2024`?\n\nIdeally, future release branches would also have the Trusty branches pinned to `main`, and we maintain separate build files for those. Alternatively, we could branch the Trusty modules but with automergers.",
+      "parentUuid": "d37a3c01_727cfa0e",
+      "revId": "3bee4ff7c5b90add4efabb080ac9222579665064",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
