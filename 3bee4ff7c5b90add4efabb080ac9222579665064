@@ -52,6 +52,24 @@
       "parentUuid": "d37a3c01_727cfa0e",
       "revId": "3bee4ff7c5b90add4efabb080ac9222579665064",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c095a84d_4d1da00b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-09-11T16:03:27Z",
+      "side": 1,
+      "message": "Never mind, discussed this on chat with the Trusty team and we decided not to make the switch.",
+      "parentUuid": "589151e5_e797a4e1",
+      "revId": "3bee4ff7c5b90add4efabb080ac9222579665064",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
