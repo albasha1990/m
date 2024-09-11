@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07af8f88_ea3cedc9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-09-11T00:36:02Z",
+      "side": 1,
+      "message": "We figured out how to build both `android-mainline` and `android15-6.6` out of the same branch: basically maintain two copies of `BUILD.bazel`. It\u0027s ugly but it works.",
+      "revId": "3bee4ff7c5b90add4efabb080ac9222579665064",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
