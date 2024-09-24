@@ -5,10 +5,32 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
 
+<<<<<<< HEAD   (09b172 Add asuite prebuilt repo into android-mainline manifest.)
   <project path="build" name="kernel/build" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
   <project path="common" name="kernel/common" revision="android12-5.10" />
   <project path="kernel/tests" name="kernel/tests" />
+=======
+  <project path="build/kernel" name="kernel/build" >
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="build.sh" dest="build/build.sh" />
+    <linkfile src="build_abi.sh" dest="build/build_abi.sh" />
+    <linkfile src="build_test.sh" dest="build/build_test.sh" />
+    <linkfile src="build_utils.sh" dest="build/build_utils.sh" />
+    <linkfile src="config.sh" dest="build/config.sh" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="_setup_env.sh" dest="build/_setup_env.sh" />
+    <linkfile src="multi-switcher.sh" dest="build/multi-switcher.sh" />
+    <linkfile src="abi" dest="build/abi" />
+    <linkfile src="static_analysis" dest="build/static_analysis" />
+  </project>
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="android13-5.10" />
+  <project path="common" name="kernel/common" revision="android13-5.10" >
+    <linkfile src="." dest=".source_date_epoch_dir" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" revision="main" />
+>>>>>>> CHANGE (a2dcf5 Add revision "main" in kernel/tests project)
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
