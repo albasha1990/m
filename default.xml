@@ -6,9 +6,15 @@
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.4" />
 
   <project path="build" name="kernel/build" />
+<<<<<<< HEAD   (feb060 Add asuite prebuilt repo into android-mainline manifest.)
   <project path="common" name="kernel/common" revision="android12-5.4" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
   <project path="kernel/tests" name="kernel/tests" />
+=======
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
+  <project path="common" name="kernel/common" revision="android12-5.10" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" />
+>>>>>>> CHANGE (777860 Add revision "main" in kernel/tests project)
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.4" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
