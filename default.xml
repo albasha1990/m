@@ -3,25 +3,26 @@
 
   <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="android-msm-eos-5.15-tm-wear-kr3-dr-eos"
+  <default revision="android-msm-seluna-5.15-android14-qpr3"
     remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="android-msm-eos-5.15-tm-wear-kr3-dr-eos" />
+  <superproject name="kernel/superproject" remote="aosp" revision="android-msm-seluna-5.15-android14-qpr3" />
 
+  <project path="common" name="kernel/common" groups="partner" >
+    <linkfile dest=".source_date_epoch_dir" src="." />
+  </project>
   <project path="private/msm-google" name="kernel/msm" groups="partner" >
     <linkfile dest="build.config" src="build.config.aarch64"/>
-    <linkfile dest="private/google-modules/soc/msm/vendor_kernel_boot_modules.sw5100" src="modules.list.msm.monaco"/>
-    <linkfile dest="private/google-modules/soc/msm/vendor_dlkm.blocklist.sw5100" src="modules.vendor_blocklist.msm.monaco"/>
-    <linkfile dest="private/google-modules/soc/msm/monaco_gki.fragment" src="arch/arm64/configs/vendor/monaco_GKI.config"/>
   </project>
   <project path="private/devices/google/eos" name="kernel/devices/google/eos" groups="partner" >
     <linkfile dest="build_eos.sh" src="build_eos.sh"/>
+    <linkfile src="device.bazelrc" dest=".d1.bazelrc" />
   </project>
-  <project path="private/msm-google/devicetree" name="kernel/msm-extra/devicetree" groups="partner" >
-    <linkfile dest="private/msm-google/arch/arm64/boot/dts/vendor" src="."/>
-    <linkfile dest="private/google-modules/soc/msm/dts/vendor/qcom" src="qcom"/>
-    <linkfile dest="private/devices/google/eos/dts/vendor/qcom" src="qcom"/>
+  <project path="private/devices/google/seluna" name="kernel/devices/google/seluna" groups="partner" >
+    <linkfile dest="build_seluna.sh" src="build_seluna.sh" />
+    <linkfile src="device.bazelrc" dest=".d1.bazelrc" />
   </project>
+  <project path="private/msm-google/devicetree" name="kernel/msm-extra/devicetree" groups="partner" />
   <project path="private/msm-google/display-devicetree" name="kernel/msm-extra/display-devicetree" groups="partner" >
     <linkfile dest="private/google-modules/soc/msm/dts/display-devicetree" src="."/>
   </project>
@@ -62,29 +63,27 @@
   <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" />
   <project path="private/msm-google-modules/wlan/platform" name="kernel/msm-modules/wlan-platform" groups="partner" />
   <project path="private/google-modules/soc/msm" name="kernel/google-modules/soc/msm" groups="partner" >
-    <linkfile dest="private/devices/google/eos/dts/google-dts-base" src="dts/google"/>
-    <linkfile dest="update_symbol_list.sh" src="scripts/update_symbol_list.sh"/>
-    <linkfile dest="handle_aosp_merge.sh" src="scripts/handle_aosp_merge.sh"/>
+    <linkfile src="device.bazelrc" dest="device.bazelrc" />
+    <linkfile src="scripts/update_symbol_list.sh" dest="update_symbol_list.sh" />
+    <linkfile src="scripts/handle_aosp_merge.sh" dest="handle_aosp_merge.sh" />
   </project>
   <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
+  <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
   <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" />
+  <project path="private/google-modules/display/watch/mcu-offload" name="kernel/google-modules/display/watch/mcu-offload" groups="partner" />
   <project path="private/google-modules/modem" name="kernel/msm-modules/modem" groups="partner" />
   <project path="private/google-modules/nanohub" name="kernel/google-modules/nanohub" groups="partner" />
   <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" />
   <project path="private/google-modules/rotary-encoders" name="kernel/google-modules/rotary-encoders" groups="partner" />
   <project path="private/google-modules/sound/mcu_mic_codec" name="kernel/google-modules/sound/mcu_mic_codec" groups="partner" />
   <project path="private/google-modules/touch/novatek" name="kernel/google-modules/touch/novatek_touch" groups="partner" />
+  <project path="private/google-modules/uwb" name="kernel/google-modules/uwb" groups="partner" />
+  <project path="private/google-modules/wlan/syna/dhd4381" name="kernel/google-modules/wlan/syna/dhd4381" groups="partner" />
   <project path="build/kernel" name="kernel/build" groups="partner" >
-    <linkfile dest="build/build.sh" src="build.sh"/>
-    <linkfile dest="build/build_abi.sh" src="build_abi.sh"/>
-    <linkfile dest="build/build_test.sh" src="build_test.sh"/>
-    <linkfile dest="build/build_utils.sh" src="build_utils.sh"/>
-    <linkfile dest="build/config.sh" src="config.sh"/>
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
-    <linkfile dest="build/_setup_env.sh" src="_setup_env.sh"/>
-    <linkfile dest="build/multi-switcher.sh" src="multi-switcher.sh"/>
-    <linkfile dest="build/abi" src="abi"/>
-    <linkfile dest="build/static_analysis" src="static_analysis"/>
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="build_test.sh" dest="build/build_test.sh" />
+    <linkfile src="config.sh" dest="build/config.sh" />
   </project>
   <project path="kernel/configs" name="kernel/configs" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
@@ -92,6 +91,7 @@
   <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" groups="partner" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="partner" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" remote="aosp" clone-depth="1" groups="partner" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="partner" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="partner" />
