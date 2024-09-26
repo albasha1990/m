@@ -22,27 +22,27 @@
     <linkfile dest="build_seluna.sh" src="build_seluna.sh" />
     <linkfile src="device.bazelrc" dest=".d1.bazelrc" />
   </project>
-  <project path="private/msm-google/devicetree" name="kernel/msm-extra/devicetree" groups="partner" />
-  <project path="private/msm-google/display-devicetree" name="kernel/msm-extra/display-devicetree" groups="partner" >
+  <project path="private/msm-google-extra/devicetree" name="kernel/msm-extra/devicetree" groups="partner" />
+  <project path="private/msm-google-extra/display-devicetree" name="kernel/msm-extra/display-devicetree" groups="partner" >
     <linkfile dest="private/google-modules/soc/msm/dts/display-devicetree" src="."/>
   </project>
-  <project path="private/msm-google/audio-devicetree" name="kernel/msm-extra/audio-devicetree" groups="partner" >
+  <project path="private/msm-google-extra/audio-devicetree" name="kernel/msm-extra/audio-devicetree" groups="partner" >
     <linkfile dest="private/google-modules/soc/msm/dts/audio-devicetree" src="."/>
   </project>
-  <project path="private/msm-google/bt-devicetree" name="kernel/msm-extra/bt-devicetree" groups="partner" >
+  <project path="private/msm-google-extra/bt-devicetree" name="kernel/msm-extra/bt-devicetree" groups="partner" >
     <linkfile dest="private/google-modules/soc/msm/dts/bt-devicetree" src="."/>
     <linkfile dest="private/devices/google/eos/dts/bt-devicetree" src="."/>
   </project>
-  <project path="private/msm-google/data-devicetree" name="kernel/msm-extra/data-devicetree" groups="partner" />
-  <project path="private/msm-google/mmrm-devicetree" name="kernel/msm-extra/mmrm-devicetree" groups="partner" />
-  <project path="private/msm-google/nfc-devicetree" name="kernel/msm-extra/nfc-devicetree" groups="partner" />
-  <project path="private/msm-google/video-devicetree" name="kernel/msm-extra/video-devicetree" groups="partner" >
+  <project path="private/msm-google-extra/data-devicetree" name="kernel/msm-extra/data-devicetree" groups="partner" />
+  <project path="private/msm-google-extra/mmrm-devicetree" name="kernel/msm-extra/mmrm-devicetree" groups="partner" />
+  <project path="private/msm-google-extra/nfc-devicetree" name="kernel/msm-extra/nfc-devicetree" groups="partner" />
+  <project path="private/msm-google-extra/video-devicetree" name="kernel/msm-extra/video-devicetree" groups="partner" >
     <linkfile dest="private/google-modules/soc/msm/dts/video-devicetree" src="."/>
   </project>
-  <project path="private/msm-google/wlan-devicetree" name="kernel/msm-extra/wlan-devicetree" groups="partner" >
+  <project path="private/msm-google-extra/wlan-devicetree" name="kernel/msm-extra/wlan-devicetree" groups="partner" >
     <linkfile dest="private/google-modules/soc/msm/dts/wlan-devicetree" src="."/>
   </project>
-  <project path="private/msm-google/graphics-devicetree" name="kernel/msm-extra/graphics-devicetree" groups="partner" >
+  <project path="private/msm-google-extra/graphics-devicetree" name="kernel/msm-extra/graphics-devicetree" groups="partner" >
     <linkfile dest="private/google-modules/soc/msm/dts/graphics-devicetree" src="."/>
   </project>
   <project path="private/msm-google-modules/audio" name="kernel/msm-extra" groups="partner" />
