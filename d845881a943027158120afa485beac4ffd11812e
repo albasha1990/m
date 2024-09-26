@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26f91a0a_f276972a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2024-09-26T00:31:54Z",
+      "side": 1,
+      "message": "+cc Dmitrii - do you happen to know who else might have +2 here that we could use while Ram is OOO? Or do you have +2?",
+      "revId": "d845881a943027158120afa485beac4ffd11812e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
