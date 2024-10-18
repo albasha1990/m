@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f03115a4_0fe9b549",
+        "filename": "project.config",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-10-18T11:23:30Z",
+      "side": 1,
+      "message": "why is that needed? I think if there is a reason to bypass, then somebody from the GKI (release) team should have a look.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 70
+      },
+      "revId": "771c1029092b523756004f7efd2a0ab7028ea9a8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
