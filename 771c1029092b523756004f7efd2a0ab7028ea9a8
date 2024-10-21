@@ -22,6 +22,30 @@
       },
       "revId": "771c1029092b523756004f7efd2a0ab7028ea9a8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a3a3c57_fb7ed3e9",
+        "filename": "project.config",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2024-10-21T11:41:48Z",
+      "side": 1,
+      "message": "Thanks for catching out. Removed and commented in b/373519745#comment14.",
+      "parentUuid": "f03115a4_0fe9b549",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 70
+      },
+      "revId": "771c1029092b523756004f7efd2a0ab7028ea9a8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
