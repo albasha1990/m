@@ -34,6 +34,24 @@
       "parentUuid": "c25afd4c_6d3256fd",
       "revId": "d6e635ba9a968f10e846dfb592f96db90b2badf3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a1ca9ab_c8548abe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-10-25T09:05:34Z",
+      "side": 1,
+      "message": "yep, George is right",
+      "parentUuid": "625606b5_3915a285",
+      "revId": "d6e635ba9a968f10e846dfb592f96db90b2badf3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
