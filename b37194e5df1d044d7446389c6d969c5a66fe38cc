@@ -16,6 +16,24 @@
       "message": "I don\u0027t actually have +2 on this",
       "revId": "b37194e5df1d044d7446389c6d969c5a66fe38cc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b76330a4_0d32b16f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1892347
+      },
+      "writtenOn": "2024-10-28T08:56:48Z",
+      "side": 1,
+      "message": "Matthias, is this something you can help with? The manifest on the -rust branch needs to be updated to pull in a new repository in `common-modules` that is required by the build. Thanks!",
+      "parentUuid": "0d5f8768_d517904a",
+      "revId": "b37194e5df1d044d7446389c6d969c5a66fe38cc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
