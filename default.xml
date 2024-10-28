@@ -1,38 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
-
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2024-10" />
-
-  <project path="build/kernel" name="kernel/build">
-    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
-    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="build_test.sh" dest="build/build_test.sh" />
-    <linkfile src="config.sh" dest="build/config.sh" />
-  </project>
-  <project path="common" name="kernel/common" revision="android14-6.1-2024-10" upstream="android14-6.1-2024-10" dest-branch="android14-6.1-2024-10" />
-  <project path="kernel/configs" name="kernel/configs" revision="dc5a8e5ef642c44c693187e1fa48a492068d2530" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="029eb2de8fa8088995f0809b9847d60bf19e4098" upstream="main" dest-branch="main">
-    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
-    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
-  </project>
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="248ead9e9c42b302c44200977396f29bb07a308e" upstream="android14-6.1" dest-branch="android14-6.1" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="27423dae33734559ba117e07ba859bc5d7c63978" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="984089c634c79c969c0a5a3d4d0761dee53e40f4" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
-
-  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
-  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
-
-  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
-  <project path="external/stardoc" name="platform/external/stardoc" />
-  <project path="external/python/absl-py" name="platform/external/python/absl-py" />
 </manifest>
